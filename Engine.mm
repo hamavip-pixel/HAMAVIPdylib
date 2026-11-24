@@ -1,4 +1,4 @@
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
  
 
 #import "Engine.h"
@@ -53,11 +53,11 @@
 
 #define iPhone8P ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
 
-#define HMOOD_METALBIEW_IMPLEMENTATION
+#define HAMA⚡VIP_METALBIEW_IMPLEMENTATION
 #include "ESP/Engine_2.h"
-#undef HMOOD_METALBIEW_IMPLEMENTATION
+#undef HAMA⚡VIP_METALBIEW_IMPLEMENTATION
 
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
 static bool IsAimTriggerActive(const ASTExtraPlayerCharacter* player) {
     if (!player) return false;
     const bool fire = player->bIsWeaponFiring;
@@ -75,21 +75,21 @@ static bool IsAimTriggerActive(const ASTExtraPlayerCharacter* player) {
 INI* config;
 
 
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
 - (MTKView *)mtkView
 {
     return (MTKView *)self.view;
 }
 
 
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
 - (void)loadView {
 
 self.view = [[MTKView alloc] initWithFrame:CGRectMake(0, 0, kWidth, kHeight)];
 
 }
 
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
 - (void)viewDidLoad {
     
     
@@ -104,7 +104,7 @@ self.view = [[MTKView alloc] initWithFrame:CGRectMake(0, 0, kWidth, kHeight)];
 }
 
 
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
 - (instancetype)initWithNibName:(nullable NSString *)nibNameOrNil bundle:(nullable NSBundle *)nibBundleOrNil
 {
     
@@ -156,7 +156,7 @@ namespace Variables {
 }
 
 
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
 - (void)drawInMTKView:(MTKView*)view
 {
   
@@ -225,7 +225,7 @@ RenderMenu();
 
 }
     
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
 -(void) readIniConfig {
      
     if(config) {
@@ -315,7 +315,7 @@ RenderMenu();
 }
 
 
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
 - (void)mtkView:(MTKView*)view drawableSizeWillChange:(CGSize)size
 {
     
@@ -324,7 +324,7 @@ RenderMenu();
 
 
 
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
 - (void)updateIOWithTouchEvent:(UIEvent *)event
 {
     UITouch *anyTouch = event.allTouches.anyObject;
@@ -344,25 +344,25 @@ RenderMenu();
     io.MouseDown[0] = hasActiveTouch;
 }
 
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     [self updateIOWithTouchEvent:event];
 }
 
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
 - (void)touchesMoved:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     [self updateIOWithTouchEvent:event];
 }
 
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
 - (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     [self updateIOWithTouchEvent:event];
 }
 
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     [self updateIOWithTouchEvent:event];
@@ -381,7 +381,7 @@ struct sRegion {
 std::vector<sRegion> trapRegions;
 
 
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
 bool isObjectInvalid(UObject *obj) {
     if (!Tools::IsPtrValid(obj)) {
         return true;
@@ -439,7 +439,7 @@ long obbbbl() {
 UWorld *GEWorld;
 int GWorldNum = 0;
 TUObjectArray gobjects;
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
 UWorld *GetFullWorld()
 {
     if(GWorldNum == 0) {
@@ -478,7 +478,7 @@ UWorld *GetFullWorld()
     return 0;
 }
 
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
 TNameEntryArray *GetGNames() {  
    NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
         NSString *BundID = [infoDictionary objectForKey:@"CFBundleIdentifier"];
@@ -503,7 +503,7 @@ TNameEntryArray *GetGNames() {
 
 
 
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
 std::vector<AActor *> getActorsSafe(UWorld* World)
 {
     if (!World)
@@ -532,11 +532,11 @@ std::vector<AActor *> getActorsSafe(UWorld* World)
 }
 
 
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
 FVector GetBoneLocationByName(ASTExtraPlayerCharacter *Actor, const char *BoneName) {
     return Actor->GetBonePos(BoneName, FVector());
 }
-// HMOOD__TG@i_8_f
+// HAMA⚡VIP
 bool WriteAddr(void *addr, void *buffer, size_t length) {
     unsigned long page_size = sysconf(_SC_PAGESIZE);
     unsigned long size = page_size * sizeof(kaddr);
